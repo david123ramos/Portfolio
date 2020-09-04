@@ -13,6 +13,13 @@ window.onload = function() {
       a.play();
     })
 
+
+
+  // getRepoInfo("CatDown")
+  // .then( (data) => {
+  //   document.querySelector("#starsCatDown").innerHTML = data.stargazers_count
+  // });
+
   var myrow = document.querySelector("#techsRow");
 
   pics.forEach( url => {
@@ -152,12 +159,12 @@ class Tooltip{
 
     return d;
 
-
   }
-
 };
 
 
 
-
+function getRepoInfo(repo){
+  return fetch(`https://api.github.com/repos/david123ramos/${repo}`, {method: 'GET'} ).then(resp => resp.json());
+}
 
