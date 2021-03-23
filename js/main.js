@@ -83,7 +83,7 @@ var pics = [
   {url:"https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png" , name : "HTML"},
   {url:"https://image.flaticon.com/icons/png/512/732/732190.png" , name : "CSS" },
   {url:"https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png", name : "Node"},
-  {url: "https://cdn.worldvectorlogo.com/logos/mysql.svg", name: "MySQL"},
+  {url: "https://www.mysql.com/common/logos/logo-mysql-170x115.png", name: "MySQL"},
   {url: "https://cdn.iconscout.com/icon/free/png-512/mongodb-4-1175139.png", name: "MongoDB"},
   {url: "https://miro.medium.com/max/400/1*wqYF-8Dmh7LhtLkKfERc3Q.png", name: "Vue.js"},
 ]
