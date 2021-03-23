@@ -161,7 +161,10 @@ class Tooltip{
 
   }
 };
-
+console.log(
+  "%c Me contrata 🥺🙏",
+  "color:red;font-family:system-ui;font-size:2rem;-webkit-text-stroke: 1px black;font-weight:bold");
+  
 
 
 function getRepoInfo(repo){
